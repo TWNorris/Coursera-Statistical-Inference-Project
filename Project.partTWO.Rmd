@@ -152,7 +152,7 @@ We can see that the p-value of the test is 0.06. Since the p-value is greater th
 interval of the test contains zero, we can reject the null hypothesis and say that supplement types don't seem
 to have any impact on teeth growth. In other words, there's no significant statistical difference between them
 
-###Conclusion
+###Conclusions
 
 In the previous section of this report we drew some conclusions from our tests. However, before using any statistical test we should always make sure that some conditions are met. In our case, t-tests, we should check for:
 
@@ -164,4 +164,4 @@ Assuming all the previous conditions are met we can now restate our conclusions.
 
 **It appears that there is a statistically significant difference between teeth length and dose levels across both delivery methods, in other words, as the dose increases so does teeth length.** 
 
-**On the other hand, there doesn't seem to be a statistically significant difference between delivery methods, with Orange juice apparently more effective at dose levels 0.5 and 1, and VC slightly more effective at dose level 2 **
+**On the other hand, there doesn't seem to be a statistically significant difference between delivery methods, with Orange juice apparently more effective at dose levels 0.5 and 1, and VC slightly more effective at dose level 2**
