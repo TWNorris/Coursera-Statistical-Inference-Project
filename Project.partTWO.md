@@ -61,7 +61,7 @@ ToothGrowth %>% summary()
 ##  Max.   :33.90           Max.   :2.000
 ```
 
-So we have a dataset of 60 observtions of 3 variables:
+So we have a dataset of 60 observations of 3 variables:
 
 * **len**: tooth length, numeric variable
 * **supp**: supplement type (VC:vitamin c or OJ:orange juice), factor variable
@@ -141,7 +141,7 @@ ToothGrowth  %>% filter(dose == 2)  %>% group_by(supp)   %>%  summarise(avg.leng
 
 Actually, as we can see, at dosage level 2, VC appears to be slightly more effective than OJ, with an average teeth length of 26.14 vs 26.06
 
-###Hypothesis Test 
+###Hypothesis Tests 
 
 Now we want to further compare teeth growth by supplement type and dose levels. This time we'll use statistical tests, t-test. As seen before, in our dataset we have two levels for supp: OJ and VC and three levels for dose: 0.5, 1, 2. Thus we'll have to run one hypothesis test for factor _supp_ and one for each possible pair of the 3 levels in the factor _dose_, that is, we will run a total of 4 tests. We start by 
 
