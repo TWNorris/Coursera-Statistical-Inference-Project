@@ -57,7 +57,7 @@ sim_mns <- tbl_df(sim_mns)
 sim_mns  %>%
   ggplot(aes(x = means) ) + geom_histogram(alpha=0.4, binwidth= .25, fill = "salmon", col = "white") +
   geom_vline(xintercept = mean_sim, color="black", size = 0.5) +
-  ggtitle("Simulated distribution of means")
+  ggtitle("Distribution of simulated means")
 ```
 
 ![](Project.partONE_files/figure-html/unnamed-chunk-2-1.png)<!-- -->

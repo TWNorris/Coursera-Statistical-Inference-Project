@@ -55,7 +55,7 @@ sim_mns <- tbl_df(sim_mns)
 sim_mns  %>%
   ggplot(aes(x = means) ) + geom_histogram(alpha=0.4, binwidth= .25, fill = "salmon", col = "white") +
   geom_vline(xintercept = mean_sim, color="black", size = 0.5) +
-  ggtitle("Simulated distribution of means")
+  ggtitle("Distribution of simulated means")
 ```
 
 From the plot we can see that the distribution of the means is centered around the mean of our simulated distribution, that is **4.982365** (the black vertical line) which is very close to the theoretical mean 1/lambda = **5**
