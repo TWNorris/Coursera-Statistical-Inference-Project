@@ -1,7 +1,4 @@
 # Statistical Inference Project part one
-DanH  
-August 13, 2016  
-
 
 ---
 
